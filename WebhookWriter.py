@@ -54,7 +54,7 @@ def spam_webhook(webhook_url, content, pytanie):
 
 def start():
     naglowek = text2art("WEBHOOK   WRITER")
-    print(f"{Fore.CYAN}{naglowek}\nGITHUB: \nAUTHOR: https://github.com/stainowy\n\n{Fore.WHITE}Our current webhook writer has the following features:\n{Fore.CYAN}   [1] {Fore.WHITE}Webhook Send           {Fore.CYAN}[2] {Fore.WHITE}Webhook Spam")
+    print(f"{Fore.CYAN}{naglowek}\nGITHUB: https://github.com/stainowy/WebhookWriter\nAUTHOR: https://github.com/stainowy\n\n{Fore.WHITE}Our current webhook writer has the following features:\n{Fore.CYAN}   [1] {Fore.WHITE}Webhook Send           {Fore.CYAN}[2] {Fore.WHITE}Webhook Spam")
 
     akcja = input(f"{Fore.WHITE}> ")
 
